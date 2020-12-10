@@ -87,6 +87,18 @@
   width: 50px;
 }
 
+.contact-maps-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.map {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (max-width: 1190px) {
   .plate-1 {
     display: none !important;
