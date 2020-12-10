@@ -1,0 +1,169 @@
+.toolbar-logo {
+  height: 100px !important;
+  width: 100px;
+}
+
+.plate-and-text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plate-1 {
+  width: 38% !important;
+  height: auto !important;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-top {
+  font-size: 53.5px;
+  line-height: 1em;
+  font-weight: 600;
+  font-family: "Open Sans";
+  display: inline-block;
+  color: #fec031;
+  align-self: flex-end;
+}
+
+.text-bottom {
+  font-size: 143px;
+  line-height: 1em;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0 !important;
+  align-self: flex-end;
+}
+
+.intro-btn {
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  font-family: "Open Sans", serif;
+  background-color: #f5821f;
+  align-self: flex-end;
+}
+
+.intro-btn:hover {
+  color: white;
+  background-color: #e0781c;
+}
+
+.intro-btn:focus {
+  color: white;
+}
+
+.about-us-section-container {
+  height: 455px;
+  margin-top: 43px;
+}
+
+.about-us-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.about-us-text {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Open Sans", serif;
+}
+
+.footer-logo {
+  height: auto;
+  width: 50px;
+}
+
+@media (max-width: 1190px) {
+  .plate-1 {
+    display: none !important;
+  }
+
+  .text-top {
+    align-self: center !important;
+  }
+
+  .text-bottom {
+    align-self: center !important;
+  }
+
+  .intro-btn {
+    align-self: center !important;
+  }
+}
+
+@media (max-width: 1060px) {
+  .about-us-section-container {
+    height: 555px;
+  }
+}
+
+@media (max-width: 848px) {
+  .about-us-section-container {
+    height: 655px;
+  }
+}
+
+@media (max-width: 706px) {
+  .about-us-section-container {
+    height: 755px;
+  }
+}
+
+@media (max-width: 612px) {
+  .about-us-section-container {
+    height: 955px;
+  }
+}
+
+@media (max-width: 681px) {
+  .text-top {
+    font-size: 35px;
+  }
+
+  .text-bottom {
+    font-size: 95px;
+  }
+
+  .intro-btn {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 465px) {
+  .text-top {
+    font-size: 28px;
+  }
+
+  .text-bottom {
+    font-size: 77px;
+  }
+}
+
+@media (max-width: 379px) {
+  .text-top {
+    font-size: 22px;
+  }
+
+  .text-bottom {
+    font-size: 70px;
+  }
+
+  .intro-btn {
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+  }
+}
