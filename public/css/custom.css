@@ -111,6 +111,12 @@
   height: 500px;
 }
 
+@media (max-width: 1199px) {
+  .our-menu-site-content {
+    margin-top: -218.5px !important;
+  }
+}
+
 @media (max-width: 1190px) {
   .plate-1 {
     display: none !important;
