@@ -99,6 +99,18 @@
   padding-right: 10px;
 }
 
+.press-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.press-page {
+  width: 80%;
+  height: 500px;
+}
+
 @media (max-width: 1190px) {
   .plate-1 {
     display: none !important;
